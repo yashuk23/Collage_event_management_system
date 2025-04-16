@@ -1,0 +1,137 @@
+/* 🌟 Event Container Styling */
+.event-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background: #f4f4f4;
+}
+
+/* 🌟 Content Wrapper */
+.content-wrapper {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 30px;
+}
+
+/* 🌟 Event Header */
+.event-header h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #4CAF50;
+    margin-bottom: 30px;
+}
+
+/* 🌟 Event Card */
+.event-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f9f9f9;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    overflow: hidden;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+}
+
+/* 🌟 Event Image */
+.event-image img {
+    width: 400px;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    object-fit: cover;
+}
+
+/* 🌟 Event Details */
+.event-details {
+    padding: 25px;
+    flex: 1;
+}
+
+.event-details h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.event-details p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* 🌟 Coordinators Section */
+.coordinators p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* 🌟 Participate Button */
+.participate-form {
+    margin-top: 20px;
+}
+
+.btn-participate {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 18px;
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.btn-participate:hover {
+    background: #388E3C;
+    color: #fff;
+}
+
+/* 🌟 Back Button */
+.back-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-back {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 16px;
+    background: #2196F3;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-back:hover {
+    background: #1976D2;
+    color: #fff;
+}
+
+/* 🌟 Responsive Design */
+@media (max-width: 768px) {
+    .event-card {
+        flex-direction: column;
+    }
+
+    .event-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .event-details {
+        padding: 20px;
+        text-align: center;
+    }
+}

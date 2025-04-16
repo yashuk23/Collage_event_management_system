@@ -1,0 +1,169 @@
+/* 🌟 Page Container */
+.event-categories-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    background: #f5f5f5;
+    text-align: center;
+}
+
+/* 🌟 Page Title */
+.event-categories-container h1 {
+    font-size: 42px;
+    color: #2c3e50;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* 🌟 Event Card */
+.event-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+}
+
+/* 🌟 Hover Effect */
+.event-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* 🌟 Event Image */
+.event-image {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* 🌟 Event Content */
+.event-content {
+    padding: 40px;
+    text-align: left;
+    width: 60%;
+}
+
+/* 🌟 Event Title */
+.event-content h2 {
+    font-size: 32px;
+    color: #27ae60;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+/* 🌟 Event Description */
+.event-content p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+/* 🌟 View Button */
+.btn-view {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 18px;
+    background: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.btn-view:hover {
+    background: #2980b9;
+    transform: translateY(-3px);
+}
+
+/* 🌟 Responsive Design */
+@media (max-width: 992px) {
+    .event-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .event-image {
+        width: 100%;
+        height: 300px;
+    }
+
+    .event-content {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+/* Banner Container */
+.banner-container {
+    position: relative;
+    width: 100%;
+    height: 500px;                          /* Set banner height */
+    background: url('images/banner.jpg') no-repeat center center/cover; /* Add banner image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+/* Banner Content */
+.banner-content {
+    background: rgba(0, 0, 0, 0.6);          /* Dark overlay */
+    padding: 40px 60px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    max-width: 800px;
+    animation: fadeIn 1.5s ease-in-out;       /* Smooth animation */
+}
+
+/* Banner Heading */
+.banner-content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* Banner Paragraph */
+.banner-content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Banner Button */
+.btn-banner {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #007bff;               /* Blue button */
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+/* Hover Effect for Button */
+.btn-banner:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
