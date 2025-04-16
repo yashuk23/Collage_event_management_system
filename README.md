@@ -1,2 +1,2 @@
 # Collage_event_management_system
-I have provided all the project with coding implementation which is a comprehensive webpage.
+In this project i have provided all the frontend and backend implementation using HTML,CSS and and for backend i have used PHP . It also contain the database using SQL
